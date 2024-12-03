@@ -1,89 +1,657 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
 
-		<title>Sorry! We will be back soon.</title>
-		<style>
-			body {
-				font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
-				color: #36414C;
-				font-weight: 300;
-			}
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-			.page-container {
-				max-width: 800px;
-				padding: 15px;
-				vertical-align: middle;
-				position: absolute;
-				top: 50%;
-				left: 0;
-				right: 0;
-				margin: 0 auto;
-				transform: translate(0%, -50%);
-			}
+    <!-- Title  -->
+    <title>DAR AL AZAL TRADING LLC</title>
 
-			.svg-container {
-				float: left;
-				width: 150px;
-				padding-top: 24px;
-			}
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/dat.png">
 
-			.message-container {
-				float: left;
-				padding-left: 15px;
-				font-size: 16px;
-				line-height: 1.6;
-			}
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font.css">
 
-			.message-container h1 {
-				font-size: 48px;
-				line-height: 1.2;
-				font-weight: 200;
-			}
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
 
-			.message-container .message {
-				color: #8D99A6;
-			}
+</head>
 
-			.clearfix {
-				clear: both;
-			}
+<body>
+    
+    <div id="wrapper">
 
-			a {
-				color: #5E64FF;
-			}
+        <!-- ****** Header Area Start ****** -->
+        <header class="header_area">
+            <!-- Top Header Area Start -->
+            <div class="top_header_area">
+                <div class="container" style="height:85% !important;">
+                    <div class="row  align-items-center justify-content-end" style="height:86% !important;">
 
-			@media (max-width: 767px) {
-				.svg-container {
-					float: none;
-					padding-top: 0px;
-				}
+                        <div class="col-12 col-lg-7">
+                            <div class="top_single_area d-flex align-items-center">
+                                <!-- Logo Area -->
+                                <div class="top_logo">
+                                    <a href="#"><img class="img-h" src="img/core-img/dat.png" alt=""></a>
+                                     <!-- <p>Dar Al Azal Trading LLC</p> -->
+                                </div>
+                                <!-- Cart & Menu Area -->
+                                <div class="header-cart-menu d-flex align-items-center ml-auto">
+                                    <!-- Cart Area -->
+                                    
+                                    <div class=" ml-15 d-sm-block d-lg-none d-md-block">
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-				.message-container {
-					float: none;
-					width: 100% !important;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="page-container">
-			<div class="svg-container">
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" x="0px" y="0px"><title>sad-face-avatar-boy-man-11</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><path d="M24.5728851,23.0941141 C26.0847779,16.969087 23.5542402,12.1548858 21.4280864,11.0822754 C19.598459,12.7549171 13.9938462,17 10.2890466,17 C12.2343263,15.4384766 12.8488535,12.9394531 12.8488535,12.9394531 C12.8488535,12.9394531 10.9859461,15.7346191 7.24611965,17 C6.45154466,18.5731485 6.67682658,20.3507184 6.78659707,21.5361582 C6.84777749,21.7403698 6.95210509,22.0855229 6.99214296,22.1994274 C7.09055416,22.4793995 7.21210961,22.7924224 7.35775135,23.1301118 C7.774276,24.0958785 8.2986796,25.0616511 8.9372701,25.9603932 C10.738893,28.4959687 13.0675623,30 16,30 C18.9311427,30 21.2399187,28.4973998 23.0104666,25.9636063 C23.6381381,25.065359 24.1509411,24.1000358 24.5559252,23.1346951 C24.5616169,23.1211281 24.5672702,23.1076009 24.5728851,23.0941141 L24.5728851,23.0941141 Z M5.94669386,22.2116429 C4.61458602,20.1217921 3.13011281,13.1987617 4.62664708,8.75830078 C6.40621687,3.47802734 12.6103081,1 15.7729333,1 C18.8013894,1.00000002 21.8450169,1.93994141 23.0552307,3.80615234 C23.0552307,3.80615234 25.0915798,2.75024414 26.9020692,3.80615234 C25.0915798,4.17895508 24.887945,5.19335938 24.887945,5.19335938 C27.9234944,6.90377632 29.4577737,17.0840684 26.1082885,21.6811732 C26.0708438,21.8119773 25.9120331,22.3649335 25.857287,22.526075 C25.7549564,22.8272785 25.6289716,23.1618434 25.4780638,23.5215549 C25.0472763,24.5484017 24.5017812,25.575266 23.8301706,26.5363937 C21.888484,29.3151002 19.2996007,31 16,31 C12.7016943,31 10.0952049,29.3165313 8.12209422,26.5396068 C7.43952798,25.5789739 6.88219633,24.552559 6.43951227,23.5261382 C6.28443097,23.166562 6.15455941,22.832124 6.04872776,22.5310413 C6.02660008,22.4680898 5.98792403,22.3454665 5.94669386,22.2116429 L5.94669386,22.2116429 Z M20.6103625,20.496219 L21.7234973,21.0527864 C21.9704865,21.176281 22.0705987,21.4766175 21.9471041,21.7236068 C21.8236094,21.970596 21.5232729,22.0707082 21.2762837,21.9472136 L19.2762837,20.9472136 C18.9077594,20.7629515 18.9077594,20.2370485 19.2762837,20.0527864 L21.2762837,19.0527864 C21.5232729,18.9292918 21.8236094,19.029404 21.9471041,19.2763932 C22.0705987,19.5233825 21.9704865,19.823719 21.7234973,19.9472136 L20.6103625,20.496219 Z M11.389528,20.496219 L10.2763932,21.0527864 C10.029404,21.176281 9.92929178,21.4766175 10.0527864,21.7236068 C10.176281,21.970596 10.4766175,22.0707082 10.7236068,21.9472136 L12.7236068,20.9472136 C13.0921311,20.7629515 13.0921311,20.2370485 12.7236068,20.0527864 L10.7236068,19.0527864 C10.4766175,18.9292918 10.176281,19.029404 10.0527864,19.2763932 C9.92929178,19.5233825 10.029404,19.823719 10.2763932,19.9472136 L11.389528,20.496219 Z M14.4246316,26.7639848 C14.4725953,26.6868331 14.5938453,26.5444206 14.7863941,26.3975309 C15.1127054,26.1485979 15.512309,26 16,26 C16.487691,26 16.8872946,26.1485979 17.2136059,26.3975309 C17.4061547,26.5444206 17.5274047,26.6868331 17.5753684,26.7639848 C17.7211632,26.9985024 18.0294673,27.0704264 18.2639848,26.9246316 C18.4985024,26.7788368 18.5704264,26.4705327 18.4246316,26.2360152 C18.3171754,26.0631669 18.1191505,25.8305794 17.8201344,25.6024691 C17.3271707,25.2264021 16.7183393,25 16,25 C15.2816607,25 14.6728293,25.2264021 14.1798656,25.6024691 C13.8808495,25.8305794 13.6828246,26.0631669 13.5753684,26.2360152 C13.4295736,26.4705327 13.5014976,26.7788368 13.7360152,26.9246316 C13.9705327,27.0704264 14.2788368,26.9985024 14.4246316,26.7639848 Z" fill="#000000" sketch:type="MSShapeGroup"></path></g></svg>
-			</div>
-			<div class="message-container" style="width: calc(100% - 170px);">
-				<h1>
-					Sorry! <br>
-					We will be back soon.
-				</h1>
-				<p class="message">
-					<strong>Don't panic.</strong> It's not you, it's us.<br>
-					Most likely, our engineers are updating the code,
-					and it should take a minute for the new code to load into memory.<br><br>
-					Try refreshing after a minute or two.
-				</p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Top Header Area End -->
+            <div class="main_header_area">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col-12 d-flex justify-content-between">
+                            <!-- Header Social Area -->
+                            <div class="header-social-area">
+                                <!-- <a href="#"><span class="karl-level">Share</span> <i class="fa fa-pinterest" aria-hidden="true"></i></a> -->
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                            <!-- Menu Area -->
+                            <div class="main-menu-area">
+                                <nav class="navbar navbar-expand-lg align-items-start">
 
-</body></html>
+                                    <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
+                                        <ul class="navbar-nav animated SMN_effect-15" id="nav">
+                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                                            <!-- <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                                <div class="dropdown-menu" aria-labelledby="karlDropdown">
+                                                    <a class="dropdown-item" href="index.html">Home</a>
+                                                    <a class="dropdown-item" href="shop.html">Shop</a>
+                                                    <a class="dropdown-item" href="product-details.html">Product Details</a>
+                                                    <a class="dropdown-item" href="cart.html">Cart</a>
+                                                    <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                                </div>
+                                            </li> -->
+                                            <li class="nav-item"><a class="nav-link" href="#brand">Brands</a></li>
+                                            <!-- <li class="nav-item"><a class="nav-link" href="#"><span class="karl-level">hot</span> Shoes</a></li> -->
+                                            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Help Line -->
+                            <div class="help-line ">
+                                <a href="https://wa.me/+971507494808" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <!-- <span>+971 4 2266471</span>  -->
+                                <a href="https://wa.me/+971507494808" target="_blank" style="margin-left: 6px;"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                <!-- <span>+971 4 2266471</span>                              -->
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ****** Header Area End ****** -->
+
+        <!-- ****** Top Discount Area Start ****** -->
+        <section class="top-discount-area  align-items-center d-none">
+            <!-- Single Discount Area -->
+            <div class="single-discount-area">
+                <h5>Free Shipping &amp; Returns</h5>
+                <h6><a href="#">BUY NOW</a></h6>
+            </div>
+            <!-- Single Discount Area -->
+            <div class="single-discount-area">
+                <h5>20% Discount for all dresses</h5>
+                <h6>USE CODE: Colorlib</h6>
+            </div>
+            <!-- Single Discount Area -->
+            <div class="single-discount-area">
+                <h5>20% Discount for students</h5>
+                <h6>USE CODE: Colorlib</h6>
+            </div>
+        </section>
+        <!-- ****** Top Discount Area End ****** -->
+
+        <!-- ****** Welcome Slides Area Start ****** -->
+        <section class="welcome_area" style="margin-top: -18px;">
+            <div class="welcome_slides owl-carousel">
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/airfry.jpg);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 class="subheading" data-animation="bounceInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Upgrade to Healthier Cooking</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInUp" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/hair.jpg);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">Get the Style You Deserve</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInRightBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/blender.webp);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms">Kitchen's Game-Changer</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInLeftBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/hairrem.webp);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">Your Secret to Smooth Skin</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInRightBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/hairstyle.jpg);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms"> Stunning Styles with Ease</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInLeftBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/trimmer.webp);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">Shape Style Just One Click</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInRightBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/vaccum.webp);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="fadeInUp" data-delay="500ms" data-duration="500ms"> Clean Smarter, Not Harder</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInLeftBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Slide Start -->
+                <div class="single_slide height-img bg-img background-overlay" style="background-image: url(img/product-img/coffe.webp);">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12 text-center">
+                                <div class="welcome_slide_text">
+                                    <h6 data-animation="fadeInDown" data-delay="0" data-duration="500ms">Dar Al Azal Trading LLC</h6>
+                                    <h2 data-animation="bounceInDown" data-delay="500ms" data-duration="500ms">Brew Perfection, Every Time</h2>
+                                    <a href="#" class="btn karl-btn" data-animation="fadeInRightBig" data-delay="1s" data-duration="500ms">Discover Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        <!-- ****** Welcome Slides Area End ****** -->
+
+        <!-- ****** Top Catagory Area Start ****** -->
+        <section class="top_catagory_area d-md-flex clearfix">
+            <!-- Single Catagory -->
+            <div class="single_catagory_area d-flex align-items-center bg-img height-350" style="background-image: url(img/product-img/epilator.webp);">
+                <div class="catagory-content">
+                    <h6>DAR AL AZAL</h6>
+                    <h2>EPILATOR</h2>
+                    <a  class="btn karl-btn" style="color: #FFFFFF;">DISCOVER NOW</a>
+                </div>
+            </div>
+            <!-- Single Catagory -->
+            <div class="single_catagory_area d-flex align-items-center bg-img height-350" style="background-image: url(img/product-img/iron.webp);">
+                <div class="catagory-content">
+                    <h6>DAR AL AZAL</h6>
+                    <h2>IRON BOX</h2>
+                    <a  class="btn karl-btn" style="color: #FFFFFF;">DISCOVER NOW</a>
+                </div>
+            </div>
+        </section>
+        <!-- ****** Top Catagory Area End ****** -->
+
+        <!-- ****** Quick View Modal Area Start ****** -->
+        
+        <!-- ****** Quick View Modal Area End ****** -->
+        <section class="container pb-4" id="about">
+            <div class="containers">
+                <div class="contentLeft">
+                  <div class="row mob-img" >
+                      <div class="imgWrapper">
+                          <img src="img/product-img/abair.jpg" alt="">
+                      </div>
+                      <div class="imgWrapper">
+                          <img src="img/product-img/abhair.jpg" alt="">
+                      </div>
+                      <div class="imgWrapper">
+                          <img src="img/product-img/abjuice.webp" alt="">
+                      </div>
+                      <div class="imgWrapper">
+                          <img src="img/product-img/abtrim.jpg" alt="">
+                      </div>
+                  </div>
+                </div>
+                <div class="contentRight">
+                  <div class="content">
+                    <h4></h4>
+                    <h2 style="font-size: 28px;margin-top: -18px;">About Us</h2>
+                    <p style="font-size: 15px;">
+                        Welcome to Dar Al Azal Trading LLC, a trusted leader in the electronics trading industry in Dubai. With 20 years of expertise, we are committed to providing high-quality electronic products and services that meet the diverse needs of our customers.
+                    </p>
+                    <p style="margin-top:-28px;font-size: 15px;">
+                        Founded in Dubai, Dar Al Azal Trading LLC has established itself as a reliable supplier and distributor of cutting-edge electronics, including consumer electronics, home appliances, and more. Our goal is to offer innovative solutions and top-tier products to both businesses and consumers, ensuring that all our clients have access to the best technology on the market.
+                    </p>
+                    <div class="row" style="margin-top: -18px;">
+                        <div class="col-md-6 bodleft">
+                          <h4 class="ulfont">Our Mission</h4>
+                          <ul class="padd">
+                            <li class="marker lifont">
+                                Provide Quality Electronics.
+                            </li>
+                            <li class="marker lifont">
+                                Ensure Customer Satisfaction
+                            </li>
+                            <li class="marker lifont">
+                                Offer Competitive Prices.
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 bodright">
+                          <h4 class="ulfont">Our Vision</h4>
+                          <ul class="padd">
+                            <li class="marker lifont">
+                                Lead in Electronics Wholesale.
+                            </li>
+                            <li class="marker lifont">
+                                Foster Customer Loyalty
+                            </li>
+                            <li class="marker lifont">
+                                Innovate For a Tech Future
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- ****** New Arrivals Area Start ****** -->
+        <section class="new_arrivals_area  clearfix py-4 mb-4" id="brand">
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading text-center">
+                            <h2>New Arrivals</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="slider" style="
+            --width: 200px;
+            --height: 100px;
+            --quantity: 19;">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="img/brand/1.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 2"><img src="img/brand/2.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 3"><img src="img/brand/3.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 4"><img src="img/brand/4.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 5"><img src="img/brand/5.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 6"><img src="img/brand/6.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 7"><img src="img/brand/7.jpg" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 8"><img src="img/brand/8.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 9"><img src="img/brand/9.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 10"><img src="img/brand/10.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 11"><img src="img/brand/11.png" class="cardshss" alt=""></div>
+                <div class="item" style="--position: 12"><img src="img/brand/12.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 13"><img src="img/brand/13.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 14"><img src="img/brand/14.png" class="cardshs" alt=""></div>
+                <div class="item" style="--position: 15"><img src="img/brand/15.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 16"><img src="img/brand/16.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 17"><img src="img/brand/17.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 18"><img src="img/brand/18.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 19"><img src="img/brand/19.png" class="cardsh" alt=""></div>
+            </div>
+        </div>
+        <div class="slider" reverse="true" style="
+            --width: 200px;
+            --height: 100px;
+            --quantity: 19;
+        ">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="img/brand/1.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 2"><img src="img/brand/2.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 3"><img src="img/brand/3.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 4"><img src="img/brand/4.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 5"><img src="img/brand/5.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 6"><img src="img/brand/6.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 7"><img src="img/brand/7.jpg" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 8"><img src="img/brand/8.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 9"><img src="img/brand/9.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 10"><img src="img/brand/10.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 11"><img src="img/brand/11.png" class="cardshss" alt=""></div>
+                <div class="item" style="--position: 12"><img src="img/brand/12.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 13"><img src="img/brand/13.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 14"><img src="img/brand/14.png" class="cardshs" alt=""></div>
+                <div class="item" style="--position: 15"><img src="img/brand/15.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 16"><img src="img/brand/16.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 17"><img src="img/brand/17.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 18"><img src="img/brand/18.png" class="cardsh" alt=""></div>
+                <div class="item" style="--position: 19"><img src="img/brand/19.png" class="cardsh" alt=""></div>
+            </div>
+        </div>
+        </section>
+        <!-- ****** New Arrivals Area End ****** -->
+
+        <!-- ****** Offer Area Start ****** -->
+        <section class="ftco-section  bg-img" style="background-image: url(img/core-img/uae.jpeg);" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="design">
+                            <div class="image" ></div>
+                          </div>
+                        <!-- <img src="images/41.png" class="img-fluid" alt=""> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="heading-section heading-section-white ">
+                            <span class="subheading mb-3" style="font-family:Emirates bold;color: white;">DAR AL AZAL</span>
+                    <h2 class="text-deal mt-3">Get in Touch For Wholesale and Retail Purchases!</h2>
+                  </div>
+                        <!-- <div id="timer" class="d-flex mb-4">
+                              <div class="time" id="days"></div>
+                              <div class="time pl-4" id="hours"></div>
+                              <div class="time pl-4" id="minutes"></div>
+                              <div class="time pl-4" id="seconds"></div>
+                            </div> -->
+                            <div>
+                                <p class="text-p" style="color: #FFFFFF;">Contact Us Now</p>
+                            </div>
+                            <div class="d-flex">
+                                
+                                <!-- <p class="price"><span class="mr-2 price-dc">$120.00</span><span class="price-sale">$80.00</span></p> -->
+                                <a class="cta-btn ml-4" href="https://wa.me/+971507494808" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                                      </svg>
+                                    </a>
+                                  <a class="cta-btn ml-4" href="https://wa.me/+971507494808" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                                      </svg>
+                                    </a>
+                                <!-- <ul class="thumb-deal d-flex mt-4">
+                                    <li class="img" style="background-image: url(images/product-6.png);"></li>
+                                    <li class="img" style="background-image: url(images/product-2.png);"></li>
+                                    <li class="img" style="background-image: url(images/product-4.png);"></li>
+                                </ul> -->
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ****** Offer Area End ****** -->
+
+        <!-- ****** Popular Brands Area Start ****** -->
+        <section class="karl-testimonials-area section_padding_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section_heading text-center">
+                            <h2>Customer Reviews</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="karl-testimonials-slides owl-carousel">
+
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial-area text-center">
+                                <span class="quote"><img src="img/bg-img/quote-sign-left.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <span class="quotes">Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. </span>
+                                <span class="quote" style="float: right;"><img src="img/bg-img/quote-sign-right.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                    <div class="tes-thumbnail">
+                                        <img src="img/bg-img/faisan-modified.webp" alt="">
+                                    </div>
+                                    <div class="testi-data">
+                                        <p>Muhammed Faisan</p>
+                                        <span>AL YARMOOK LLC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial-area text-center">
+                                <span class="quote"><img src="img/bg-img/quote-sign-left.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <span class="quotes">Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. </span>
+                                <span class="quote" style="float: right;"><img src="img/bg-img/quote-sign-right.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                    <div class="tes-thumbnail">
+                                        <img src="img/bg-img/faisan-modified.webp" alt="">
+                                    </div>
+                                    <div class="testi-data">
+                                        <p>Muhammed Faisan</p>
+                                        <span>AL YARMOOK LLC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial-area text-center">
+                                <span class="quote"><img src="img/bg-img/quote-sign-left.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <span class="quotes">Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc.Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. </span>
+                                <span class="quote" style="float: right;"><img src="img/bg-img/quote-sign-right.png" alt="" style="height:32px ;width: 46px;"></span>
+                                <div class="testimonial-info d-flex align-items-center justify-content-center">
+                                    <div class="tes-thumbnail">
+                                        <img src="img/bg-img/faisan-modified.webp" alt="">
+                                    </div>
+                                    <div class="testi-data">
+                                        <p>Muhammed Faisan</p>
+                                        <span>AL YARMOOK LLC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ****** Popular Brands Area End ****** -->
+
+        <!-- ****** Footer Area Start ****** -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                <div class="mouse">
+                          <a href="#" class="mouse-icon">
+                              <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+                          </a>
+                      </div>
+            </div>
+            </div>
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+        
+                  <div class="col-lg-3 col-md-6 footer-info">
+                    <!-- <h3>Yarmook</h3> -->
+                    <a href="#intro"><img src="img/core-img/dat.png" alt="DAR AL AZAL" title="DAL AL AZAL" style="height:150px;width: 150px;" /></a>
+                    <!-- <img src="assets/img/logo.png" alt="AL YARMOOK" title="AL YARMOOK" style="height:100px;width: auto;" /> -->
+                    <p class="">With over a decade of expertise in electronics trading, Dar AL Azal deliver top-quality products and unmatched customer service.</p>
+                  </div>
+        
+                  <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><i class="bi bi-chevron-right"></i> <a href="">Home</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="">About Us</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="">Brands</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="">Contact Us</a></li>
+                      <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+                    </ul>
+                  </div>
+        
+                  <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>
+                      <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. -->
+                      <br>
+                      <span style="color:#FFFFFF;">Phone: &nbsp; <a href="tel:+97142266471" target="_blank" style="color:#FFFFFF;">+971 4 2266471</a></span><br>
+                      <span style="color:#FFFFFF;">Email: &nbsp; <a href="mailto:darazal@eim.ae" style="color:#FFFFFF;">darazal@eim.ae</a></span><br>
+                    </p>
+              
+                    <div class="social-links">
+                      <a  class="facebook" href="" target="_blank">
+                        <i class="fa fa-facebook" style="width:16px;height:16px;"></i>
+                      </a>
+                      <a class="instagram" href="" target="_blank">
+                        <i class="fa fa-instagram" style="width:16px;height:16px;"></i>
+                      </a>
+                      <a  class="twitter" href="" target="_blank">
+                        <i class="fa fa-twitter" style="width:16px;height:16px;"></i>
+                        </a>
+                      <!-- <a href="" class="instagram"><i class="bi bi-instagram"></i></a> -->
+                      <a  class="linkedin">
+                        <i class="fa fa-linkedin" style="width:16px;height:16px;"></i>
+                      </a>
+                    </div>
+              
+                    </div>
+                  <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Location</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0630086175865!2d55.29811227384197!3d25.268465777665153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1357bc155555%3A0xf23bf776d0245a43!2sDAR%20AL%20AZAL%20TRADING%20L.L.C!5e0!3m2!1sen!2sae!4v1733055211294!5m2!1sen!2sae"
+                    style="border:0; width: 100%; height: 200px;border-radius: 30px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="2">
+                    </iframe>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+        
+            <div class="container">
+              <div class="copyright">
+                &copy; Copyright <strong>DAR AL AZAL</strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+                
+                Developed by <a  class="instagram" href="https://faisan333.github.io/Faisan.github.io/" target="_blank">
+                    <i class="fa fa-instagram" style="width:16px;height:16px;color:#C13584;"></i>
+                  </a>
+              </div>
+            </div>
+          </footer>
+        <!-- ****** Footer Area End ****** -->
+
+        <a href="https://wa.me/+971507494808" target="_blank" class="back-to-top bounce" type="button" class="btn" data-toggle="tooltip" data-placement="left" title="Whatsapp Us">
+            <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="60px" height="60px" viewBox="0 0 1024 1024">
+            <defs>
+            <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"></path>
+            </defs>
+            <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+              <stop offset="0" stop-color="#61fd7d"></stop>
+              <stop offset="1" stop-color="#2bb826"></stop>
+            </linearGradient>
+            <use xlink:href="#htwasqicona-chat" overflow="visible" style="fill: url(#htwasqiconb-chat)" fill="url(#htwasqiconb-chat)"></use>
+            <g>
+              <path style="fill: #FFFFFF;" fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"></path>
+            </g>
+            </svg>
+            </a>
+    </div>
+
+    
+    <!-- /.wrapper end -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
