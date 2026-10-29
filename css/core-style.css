@@ -566,13 +566,13 @@ img {
     width: 27px;
     height: 27px;
     /* background: transparent; */
-    background-image: url(../img/bg-img/uaeflag.jpg);
+    /* background-image: url(../img/bg-img/uaeflag.jpg); */
     background-size: cover;
     border: 2px solid #25D366;
     border-radius: 7px;
     font-size: 21px;
     color: #25D366;
-    text-shadow: 1px 0px 3px #000000, 1px 0px 2px #000000;
+    /* text-shadow: 1px 0px 3px #000000, 1px 0px 2px #000000; */
     z-index: 1;
     overflow: hidden;
     transition: .5s;
