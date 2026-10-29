@@ -282,7 +282,7 @@
             width: 25px;
             height: 23px;
             /* background: transparent; */
-            background-image: url(../img/bg-img/uaeflag.jpg);
+            /* background-image: url(../img/bg-img/uaeflag.jpg); */
             background-size: cover;
             border: 2px solid #25D366;
             border-radius: 6px;
