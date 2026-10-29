@@ -288,7 +288,7 @@
             border-radius: 6px;
             font-size: 19px;
             color: #25D366;
-            text-shadow: -1px 0px 0px #25D366, 1px 0px 0px #000000;
+            /* text-shadow: -1px 0px 0px #25D366, 1px 0px 0px #000000; */
             z-index: 1;
             overflow: hidden;
             transition: .5s;
